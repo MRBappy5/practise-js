@@ -17,7 +17,7 @@ products.forEach(product => console.log(product.name));
 const cheaper = products.filter(pd => pd.price < 100);
 console.log(cheaper);
 
-remove an item with filter
+// remove an item with filter
 const remaining = products.filter(pd => pd.id !=3);
 console.log(remaining);
 
